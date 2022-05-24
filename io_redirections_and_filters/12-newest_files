@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type f -ls -t | head
+find . -name "*" -type f -ls -t | head
