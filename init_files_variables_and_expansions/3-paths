@@ -1,2 +1,2 @@
 #!/bin/bash
-echo | tr "/" " " | wc -w
+echo $PATH | tr " " "/n" | sort | uniq | wc -l
