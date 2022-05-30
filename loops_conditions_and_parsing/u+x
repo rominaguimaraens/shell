@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 ##Say bad luck 4 good luck 8##
+
 i=0
+
 while [ "$i" -le 10 ]
 do
         if [ "$i" = "4" ]
