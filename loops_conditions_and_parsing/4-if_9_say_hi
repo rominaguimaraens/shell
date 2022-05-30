@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Say hi 9th time
 while [ $i -le 10 ]
  if [ "$i" = "9" ]
 	echo "Hi"
