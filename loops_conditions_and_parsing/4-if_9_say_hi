@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+while [ $i -le 10 ]
+ if [ "$i" = "9" ]
+	echo "Hi"
+	(( i++ ))
+else
+	echo "Best School"
+	(( i++ ))
+ done
