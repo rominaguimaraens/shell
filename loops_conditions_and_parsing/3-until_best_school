@@ -3,7 +3,7 @@
 # display Best School 10 times using until #
 a=1
 
-until [ $a -le 10 ]
+until [ $a -lt 11 ]
  do
     echo "Best School"
     (( a++ ))
