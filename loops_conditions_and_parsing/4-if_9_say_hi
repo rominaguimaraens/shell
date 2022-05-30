@@ -8,3 +8,4 @@ then
 else
 	echo "Best School"
 	(( i++ ))
+fi
