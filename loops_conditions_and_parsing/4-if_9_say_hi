@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 #Say hi 9th time
 while [ $i -le 10 ]
- if [ "$i" = "9" ]
-then
+do
+	if [ "$i" = "9" ]
+ then
 	 echo "Hi"
 	(( i++ ))
-else
+ else
 	echo "Best School"
 	(( i++ ))
-fi
+ fi
+done
