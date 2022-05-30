@@ -2,6 +2,7 @@
 # script that gives you information about the file
 
 for file in *
+do
 	if [ $file = "school" ]
  then 
 	echo "school file exists"
@@ -20,3 +21,4 @@ for file in *
 	echo "school file does not exist"
 
   fi
+done
