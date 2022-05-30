@@ -3,8 +3,8 @@
 # display Best School 10 times using until #
 a=0
 
-until [ $a -lt 11 ]
+until [ $a -gt 10 ]
  do
     echo "Best School"
-    (( a++ ))
+    ((a++))
  done
