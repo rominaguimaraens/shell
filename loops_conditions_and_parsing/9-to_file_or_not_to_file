@@ -4,13 +4,13 @@
 if [[ -e "school" ]]
  then 
 	echo "school file exists"
-	if [[ $(cat "school") = * ]]
+	if [[ -s "school" ]]
 		then
 			echo "school files is not empty"
  		else
 			echo "school file is empty"
 		fi
-		if [[ $(-f "school") ]]
+		if [[ -e && -f "school"	]]
 	then
 		echo "school is regular file"
 	fi
