@@ -3,16 +3,16 @@
 
 for file in *
 do
-	if [ $file = "school" ]
+	if [ "$file" = "school" ]
  then 
 	echo "school file exists"
-	if [[ $(cat $file) = * ]]
+	if [[ $(cat "$file") = * ]]
 		then
 			echo "school files is not empty"
  		else
 			echo "school file is empty"
 		fi
-		if [[ $(test - filename) = "true" ]]
+		if [[ $(test -f "$file") = "true" ]]
 	then
 		echo "school is regular file"
 	fi
