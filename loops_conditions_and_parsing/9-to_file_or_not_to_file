@@ -10,7 +10,7 @@ if [[ -e "school" ]]
  		else
 			echo "school file is empty"
 		fi
-		if [[ -e && -f "school"	]]
+		if [[ -e "school" && -f "school" ]]
 	then
 		echo "school is regular file"
 	fi
