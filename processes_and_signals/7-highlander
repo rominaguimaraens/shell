@@ -2,11 +2,7 @@
 # displays to infinity and beyond indefinitely and say i am invincible when revicing a sigterm signal
 while :
 do
-if (SIGTERM) 
- then
-	echo "I am invincible!!!"
- else
 	echo "To infinity and beyond"
 	sleep 2
-fi
+trap "I am invincible!!!" SIGTERM 
 done
